@@ -1,0 +1,8 @@
+.taskManagementGrid {
+    height: 100vh !important;
+    max-height: calc(100vh - 175px);
+    margin-bottom: 10px;
+}
+.list-loader {
+    margin-top: 15%;
+}

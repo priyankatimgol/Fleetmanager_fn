@@ -1,0 +1,42 @@
+.groupMaster .Sub-btn {
+    color: white;
+    display: flex;
+    float: right;
+    margin-top: 10px;
+}
+.iconBtn {
+    cursor: pointer;
+}
+
+.MuiDataGrid-columnHeaders {
+    background-color: #f8f8f8;
+}
+
+.MuiDataGrid-footerContainer {
+    max-height: 10px;
+}
+
+.groupMaster .MuiAutocomplete-inputRoot {
+    padding: 0px 0px 0px 5px !important;
+}
+
+.Select_box {
+    width: 32%;
+}
+
+.groupMaster .title {
+    margin-bottom: 10px;
+}
+
+.checkBoxColor .MuiCheckbox-root.Mui-checked {
+    color: #019e89
+}
+.rolePermissionGrid {
+    max-height: calc(100vh - 275px);
+}
+
+@media (max-width: 540px) {
+    .Select_box {
+        width: 80%;
+    } 
+}

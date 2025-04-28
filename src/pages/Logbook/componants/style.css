@@ -1,0 +1,190 @@
+.log-book-page .form-wrapper {
+ width: 100%;
+ margin-top: 3px;
+}
+.log-book-page .MuiAccordionSummary-content {
+ margin: 10px 0;
+ padding: 0 10px;
+}
+.form-div{
+    padding: 10px;
+}
+.form-div .MuiCollapse-root{
+    background-color: rgb(253, 254, 255);
+}
+.form-div .card-item{
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.04);
+    height:290px;
+    position: relative;
+}
+.plus-icon{
+    font-size: 60px;    
+    color: #009e89;
+    border: 1px dashed #019e89;   
+    padding: 0px 21px;
+    border-radius: 50%;
+    height: 82px;
+    width: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mn-h{
+    min-height: 228px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.log-book-page .MuiPaper-root {
+   margin-bottom: 15px !important; 
+   border-radius: 5px;  
+}
+
+.log-book-page .MuiAccordion-root{
+    box-shadow: none;
+}
+
+.log-book-page .MuiAccordionSummary-expandIconWrapper {
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 2px 0px rgb(206 206 206);;
+    border-radius: 50% !important;
+    margin-right: 10px;
+}
+.log-book-page .MuiAccordionSummary-expandIconWrapper .MuiSvgIcon-root{
+color:#009e89 ;
+}
+.card-title {
+    background-color: #F4F7FE;
+    padding: 5px 10px;
+}
+.log-book-page .css-46bh2p-MuiCardContent-root {
+padding-top: 5px;
+}
+.log-book-page .MuiAccordion-gutters:before{
+ opacity: 0;
+}
+
+.accordian-background .MuiButtonBase-root {
+    background-color: #fdfdfd;
+}
+.accordian-background-success .MuiAccordionSummary-root{
+    background-color: #e6fffb;
+    border: 1px solid #09dabe;
+    border-radius: 5px;
+}
+.accordian-background-danger .MuiAccordionSummary-root {
+    background-color: #f1e4e6;
+    border: 1px solid #efb3c0;
+    border-radius: 5px;
+}
+/* .button-background .MuiButtonBase-root {
+    border: 1px solid #009E88
+} */
+.combo-box-demo label,.form-wrapper .MuiInputBase-input {
+    font-size: 12px;
+}
+
+.form-div .breakdown-card {
+    height: 598px !important;
+    position: relative;
+}
+
+.form-div .schedule-card {
+    height: 368px !important;
+    position: relative;
+}
+
+.form-div .grid-card {
+    height: 420px !important;
+    position: relative;
+}
+
+.form-div .hoto-card {
+    height: 345px !important;
+    position: relative;
+}
+.form-div .scada-card {
+    height: 195px !important;
+    position: relative;
+}
+.form-div .remark-card {
+    height: 155px !important;
+    position: relative;
+}
+.scada-height{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.remark-height{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-heading {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.card-value {
+    font-size: 12px;
+    color: #9E9E9E;
+}
+
+.card-actions {
+display: flex;
+position: absolute;
+right: 0;
+column-gap: 5px;
+}
+
+.Mui-error {
+    font-size: 13px !important;
+}
+
+.pending-side .MuiAccordionSummary-content {
+display: block;
+}
+
+.Sub-btn {
+    color: white;
+    font-size: 13px;
+    background-color: #009E88;
+}
+.reset-btn {
+    color: #000;
+    font-size: 13px;
+    background-color: #d9d9d9;
+}
+.reset-btn:hover {
+    font-size: 13px;
+    background-color: #c7c7c7;
+    outline: none;
+    border:none;
+}
+.sub-btn-cancel {
+    font-size: 13px;
+}
+.card-scroll {
+    height: calc(100vh - 90px) !important;
+}
+
+.css-1kzp3hx-MuiButtonBase-root-MuiMenuItem-root.Mui-selected{
+    background-color: #00ab8e2b !important;
+}
+
+.switch-color {
+    background-color: #009e89;
+}
+.Sub-btn-delete {
+    color: white;
+    font-size: 13px;
+    background-color: #fc0505;
+}
+.Sub-btn-delete:hover {
+    color: white;
+    font-size: 13px;
+    background-color: #c00707;
+}

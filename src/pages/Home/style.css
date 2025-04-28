@@ -1,0 +1,184 @@
+.home-root {
+    color: #858585;
+}
+.dial {
+    display: inline-block;
+    width: 100%;   
+    color: #000;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    margin-top: 8px;
+  }
+.tempImg {
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.turbin .action {
+   display: flex;
+}
+
+.turbin .MuiInputBase-root {
+    min-height: 40px;
+}
+
+.turbin .action .MuiDivider-root {
+    border-width: 1px;
+    margin: 3px 0px 0px 8px;
+    border-color: unset;
+    height: 18px;
+}
+
+.turbin .action .MuiSvgIcon-root {
+    width: auto;
+    height: 16px;
+}
+
+.inside-card{
+   box-shadow:  0px 0px 2px 0px rgba(103, 103, 103, 0.25);
+   padding: 7px;
+   border-radius: 5px;
+   background-color: white;
+}
+.kip-circle-div{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    border: 8px solid;
+    border-radius: 50%;
+}
+.kpi-title{
+  color: #505050;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -3px;
+}
+.kpi-title img{
+    margin-right: 5px;
+}
+.kip-value{
+  color: #E72E3D;
+  font-size: 18px;
+  font-weight: 600;
+}
+.kip-units{
+  color: #E72E3D;
+  font-size: 10px;
+  font-weight: 600;
+}
+.turbin{
+    margin-top: 10px;
+    border-radius: 4px;
+    background: #dae5f9;
+    box-shadow: 0px 0px 2px 0px rgba(103, 103, 103, 0.25);
+    padding: 15px;
+}
+.turbin-scroll{
+    overflow-y: auto;  
+    height: calc(100vh - 267px);
+}
+.search-wrepper{
+  display: flex;
+  align-items: center;
+}
+.turbin-label{
+    color: #505050;
+    font-size: 12px;
+    font-weight: 500;
+ 
+}
+.turbin-label-icon{
+    color: #505050;
+    font-size: 11.5px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.pr-item{
+ /* padding-right: 20px; */
+}
+.turbin-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 75px;
+    height: 75px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+}
+.blue-turbine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 75px;
+    height: 75px;
+    background: #5A89FF;
+    border-radius: 50%;
+    border: 1px dashed #A93D36;
+}
+.green-turbine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 75px;
+    height: 75px;
+    background: #36A98A;;
+    border-radius: 50%;
+    border: 1px dashed #3116D8;
+}
+.light-green-turbine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 75px;
+    height: 75px;
+    background: #69BC4B;
+    border-radius: 50%;
+    border: 1px dashed #3116D8;
+}
+/* .turbine-wrepper{
+    margin-top: 10px;
+} */
+.blue-turbine .turbin-label-icon, .light-green-turbine .turbin-label-icon,.green-turbine .turbin-label-icon{
+   color: white;
+}
+.turbine-wrepper .MuiGrid-item{
+    width:12.5%
+}
+.search-wrepper .MuiInputBase-root {  
+    min-height: 25px;
+    background-color: white;
+    border-radius: 4px;
+    padding: 0px 5px;
+    font-size: 13px;
+    color: #505050;
+}
+.paddtop{
+    padding-top: 10px !important;
+}
+.pt-5{
+    padding-top: 5px !important;
+}
+
+
+/* right side css */
+.kpi-main-title{
+    color: #505050;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}

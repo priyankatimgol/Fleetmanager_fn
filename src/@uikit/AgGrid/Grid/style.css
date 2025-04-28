@@ -1,0 +1,32 @@
+.ag-theme-alpine {
+  --ag-border-radius: 5px;
+  --ag-borders-row: solid 1px;
+  --ag-row-border-color: rgba(0, 0, 0, 0.12);
+  --ag-header-background-color: white;
+  --ag-header-foreground-color: black;
+  --ag-header-column-separator-display: block;
+  --ag-header-column-separator-height: 30%;
+  --ag-header-column-separator-width: 1px;
+  --ag-header-column-separator-color: rgba(0, 0, 0, 0.12);
+  --ag-font-family: sans-serif;
+}
+
+.ag-root-wrapper {
+  border-radius: 7px;
+}
+
+[class^="ag-"]:not(.ag-icon) {
+  box-sizing: border-box;
+  outline: none;
+  /* font-family: Poppins, sans-serif; */
+}
+.ag-cell {
+  border-right-color: black;
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+
+/* //furnishing Tablke Css  */
+.grid_border {
+  border-right: 1px solid #0000001f !important;
+}

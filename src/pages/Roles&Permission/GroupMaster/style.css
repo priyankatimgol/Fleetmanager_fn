@@ -1,0 +1,16 @@
+.checkBox-title {
+    margin-left: -5px;
+}
+
+.per_scroll {
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.checkboxColor .MuiCheckbox-root.MuiCheckbox-indeterminate {
+    color: #019e89;
+}
+
+.role-per .ag-theme-alpine {
+    --ag-selected-row-background-color: #c9ebe6;
+}

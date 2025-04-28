@@ -1,0 +1,9 @@
+.custom-width{
+    max-width:20%;
+    flex-basic:20%;
+  }
+  .card-height{
+    height: 114px;
+    align-items: center;
+    justify-content: center;
+  }

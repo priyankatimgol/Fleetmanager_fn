@@ -1,0 +1,336 @@
+.home-root {
+    color: #858585;
+}
+.dial {
+    display: inline-block;
+    width: 100%;   
+    color: #000;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    margin-top: 8px;
+  }
+.tempImg {
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.turbin .action {
+   display: flex;
+}
+
+.turbin .MuiInputBase-root {
+    min-height: 40px;
+}
+
+.turbin .action .MuiDivider-root {
+    border-width: 1px;
+    margin: 3px 0px 0px 8px;
+    border-color: unset;
+    height: 18px;
+}
+
+.turbin .action .MuiSvgIcon-root {
+    width: auto;
+    height: 16px;
+}
+
+.inside-card{
+   box-shadow:  0px 0px 2px 0px rgba(103, 103, 103, 0.25);
+   padding: 7px;
+   border-radius: 5px;
+   background-color: white;
+   width:100%;
+   height: 110px;
+}
+.topTenErrors .barCardWrapper {
+    height: 347px;
+}
+.inside-card-disabled{
+   box-shadow:  0px 0px 2px 0px rgba(103, 103, 103, 0.25);
+   padding: 7px;
+   border-radius: 5px;
+   background-color: #8080805c;
+   filter: blur(0.5px);
+   pointer-events: none;
+}
+
+.kip-circle-div{
+    position: absolute;
+    left: 33%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    border: 6px solid;
+    border-radius: 50%;
+}
+.kpi-title{
+  color: #505050;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -3px;
+}
+.kpi-title img{
+    margin-right: 5px;
+}
+.kip-value{
+    color: #5a5858;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 0.8;
+  }
+  .kip-units{
+    color: #5a5858;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1;
+  }
+  .turbin {
+    background: #dae5f9;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 0 hsla(0,0%,40%,.25);
+    /* height: calc(72vh - 215px); */
+    height: 265px;
+    padding: 15px;
+}
+.timerRight .barCardWrapper {
+    height: 170px;
+}
+.logo {
+    margin-top: 5px;
+}
+.turbin-scroll{
+    overflow-y: auto;  
+    height: calc(100vh - 267px);
+}
+.search-wrepper{
+  display: flex;
+  align-items: center;
+}
+.turbin-label{
+    color: #505050;
+    font-size: 12px;
+    font-weight: 600;
+ 
+}
+.turbin-label-icon{
+    color: #505050;
+    font-size: 11px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.pr-item {
+    border-radius: 10px;
+    padding-right: 5px;
+    margin: 0px 0px 2px 0px;
+    cursor: pointer;
+}
+
+.pr-selected-item {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding-right: 5px;
+    margin: 0px 0px 2px 2px;
+}
+
+.turbin-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 75px;
+    height: 75px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+}
+.turbine-highlight {
+    display: flex;
+    color: #505050;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    row-gap: 3px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.turbines-wrapper {
+    /* height: calc(100vh - 275px); */
+    margin-top: 10px;
+    /* max-height: calc(76vh - 330px); */
+    max-height: 170px;
+    overflow-y: auto;
+}
+
+.Generating {
+    background: rgb(0 161 139 / 86%);
+    border: 1px dashed #3116D8;
+    color: white;
+}
+
+.Idling {
+    background: rgb(105 188 75 / 60%);
+    border: 1px dashed #3116D8;
+    color: white;
+}
+
+.Alarm {
+    background: rgb(255 0 0 / 60%);
+    border: 1px dashed #3116D8;
+    color: white;
+}
+
+.Curtailment {
+    background: rgb(101 149 230 / 70%);
+    border: 1px dashed #A93D36;
+    color: white;
+}
+
+.ManualStop{
+    background: rgb(0 73 255 / 60%);
+    border: 1px dashed #A93D36;
+    color: white;
+}
+
+.NoComm{
+    background: rgb(255 191 0 / 65%);
+    border: 1px dashed #A93D36;
+    color: white;
+}
+
+.NoData {
+    background: rgb(161 154 135 / 65%);
+    border: 1px dashed #3116D8;
+    color: white;
+}
+
+.ColorGenerating {
+    color: rgb(0 161 139 / 86%);
+}
+
+.ColorIdling {
+    color: rgb(105 188 75 / 60%);
+}
+
+.ColorAlarm {
+    color: rgb(255 0 0 / 60%);
+}
+
+.ColorCurtailment {
+    color: rgb(101 149 230 / 70%);
+}
+
+.ColorManualStop {
+    color: rgb(0 73 255 / 60%);
+}
+
+.ColorNoComm {
+    color: rgb(255, 191, 0);
+}
+
+.ColorNoData {
+    color: rgb(161 154 135 / 65%);
+}
+
+.ColorTotalWTG {
+    color: #fff
+}
+
+.plantname-list {
+    /* list-style-type: none; */
+    margin-left: 25px;
+    color: #000;
+    margin-top: 2;
+    height: 75px;
+    overflow: auto;
+}
+
+.blue-turbine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 75px;
+    height: 75px;
+    background: #5A89FF;
+    border-radius: 50%;
+    border: 1px dashed #A93D36;
+}
+.green-turbine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 75px;
+    height: 75px;
+    background: #36A98A;;
+    border-radius: 50%;
+    border: 1px dashed #3116D8;
+}
+.light-green-turbine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 75px;
+    height: 75px;
+    background: #69BC4B;
+    border-radius: 50%;
+    border: 1px dashed #3116D8;
+}
+/* .turbine-wrepper{
+    margin-top: 10px;
+} */
+.blue-turbine .turbin-label-icon, .light-green-turbine .turbin-label-icon,.green-turbine .turbin-label-icon{
+   color: white;
+}
+.turbine-wrepper .MuiGrid-item{
+    width:12.5%
+}
+.search-wrepper .MuiInputBase-root {  
+    min-height: 25px;
+    background-color: white;
+    border-radius: 4px;
+    padding: 0px 5px;
+    font-size: 13px;
+    color: #505050;
+}
+.paddtop{
+    padding-top: 10px !important;
+}
+.pt-5{
+    padding-top: 5px !important;
+}
+
+
+/* right side css */
+.kpi-main-title{
+    color: #505050;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.chartHt .barCardWrapper {
+    height: 189.5px;
+}
+.chartHtMABucketing .barCardWrapper {
+    height: 170px;
+}
+.bottomWrapper {
+    margin-top: -5px;
+}
+.bottomWrapper .barCardWrapper {
+    padding-bottom: 10px;
+}

@@ -1,0 +1,88 @@
+export const userMenuList = [
+  {
+    id: "Roles",
+    title: "User Management",
+    messageId: "Home1",
+    apiType: "",
+    exact: false,
+    type: "collapse",
+    icon: "",
+    url: "#",
+    children: [
+      {
+        id: "Master",
+        title: "Role Master",
+        type: "item",
+        icon: "",
+        url: "/role-master",
+      },
+      {
+        id: "Master2",
+        title: "Role Permission",
+        type: "item",
+        icon: "",
+        url: "/role-permission",
+      },
+      {
+        id: "Master3",
+        title: "Group Master",
+        type: "item",
+        icon: "",
+        url: "/user-master",
+      },
+    ],
+  },
+  {
+    id: "Roles",
+    title: "Logbook",
+    messageId: "Home1",
+    apiType: "",
+    exact: false,
+    type: "collapse",
+    icon: "",
+    url: "#",
+    children: [
+      {
+        id: "Master",
+        title: "Logbook",
+        type: "item",
+        icon: "",
+        url: "/logbook",
+      },
+      {
+        id: "Master",
+        title: "View/DownloadLogbook",
+        type: "item",
+        icon: "",
+        url: "/download",
+      },
+    ],
+  },
+  {
+    id: "Roles",
+    title: "WTG",
+    messageId: "Home1",
+    apiType: "",
+    exact: false,
+    type: "collapse",
+    icon: "",
+    url: "#",
+    children: [
+      {
+        id: "Master",
+        title: "WTG",
+        type: "item",
+        icon: "",
+        url: "/wtg",
+      },
+      {
+        id: "Master1",
+        title: "Map",
+        type: "item",
+        icon: "",
+        url: "/map",
+      },
+    ],
+  },
+   
+];

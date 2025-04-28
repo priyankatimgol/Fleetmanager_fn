@@ -1,0 +1,62 @@
+.percentWrapper {
+  box-shadow: 0px 0px 2px 0px rgba(103, 103, 103, 0.25);
+  padding: 0px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-bottom: 7px;
+}
+
+.percentWrapper-disabled {
+  box-shadow: 0px 0px 2px 0px rgba(103, 103, 103, 0.25);
+  padding: 0px;
+  border-radius: 5px;
+  background-color: #8080805c;
+  filter: blur(1px);
+  margin-bottom: 7px;
+}
+
+.percentWrapper-false {
+  box-shadow: 0px 0px 2px 0px rgba(103, 103, 103, 0.25);
+  padding: 0px;
+  border-radius: 5px;
+  margin-bottom: 7px;
+  cursor:pointer;
+}
+
+.percentContent {
+    display: flex;
+}
+
+.percentLabelBar {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-content-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.card-content-title {
+  display: flex;
+  margin-left: 5px;
+  justify-content: space-between;
+}
+
+.linear-box {
+  display: flex;
+  margin: 10px;
+}
+.image-wrapper {
+  padding: 0 5px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}

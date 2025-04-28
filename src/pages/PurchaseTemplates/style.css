@@ -1,0 +1,72 @@
+ .title-card{
+    font-size: 13px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #2e2e2e;  
+}
+.card-inside{
+    box-shadow: 0px 0px 2px 0px rgba(103, 103, 103, 0.25);
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+.back-icon{
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+    background: #dfdfdf;
+    border-radius: 4px;
+    color: #009e88;
+    padding: 3px;
+}
+.ag-header-row{
+    background:#F7F8FA;
+}
+.ag-root-wrapper {
+    border-radius: 0px !important;
+}
+.icon-chart{
+    margin-right: 10px;
+    font-size: 22px;
+    color: #019e89;
+}
+.flex-div{
+    display: flex;
+    align-items: center;
+}
+
+/* Ag gride css */
+
+  .ag-theme-alpine .ag-header-cell {
+    font-size: .7rem !important;
+}
+.scm-grid .ag-header-row.ag-header-row-column-filter{
+    line-height: 25px !important;
+    height: 36px!important;
+  }
+  .scm-grid .ag-header{
+    height: 85px !important;
+    min-height: 85px!important;
+  }
+  .ag-theme-alpine .ag-cell-label-container{
+    padding:0px !important;
+   }
+   .ag-theme-alpine .ag-cell-value{
+    font-size: .7rem !important;
+    font-weight: 500;
+   }
+ 
+
+.f-600{
+  font-weight: 600 !important;
+}
+.Sub-btn{
+  border: none !important;
+}
+.Sub-btn:hover{
+  border: none !important;
+}
+
+.css-f34qqq-MuiAutocomplete-root .MuiOutlinedInput-root.MuiInputBase-sizeSmall .MuiAutocomplete-input {
+  max-width: 75%;
+}

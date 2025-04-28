@@ -1,0 +1,9 @@
+.right-aligned-header .ag-header-cell-label {
+  justify-content: flex-end;
+}
+
+.pm_cat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

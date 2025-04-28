@@ -1,0 +1,40 @@
+.cardWrapper {
+  box-shadow: 0px 0px 2px 0px rgba(103, 103, 103, 0.25);
+  padding: 0px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-bottom: 7px;
+}
+
+.cardWrapper-disabled {
+  box-shadow: 0px 0px 2px 0px rgba(103, 103, 103, 0.25);
+  padding: 0px;
+  border-radius: 5px;
+  background-color: #8080805c;
+  filter: blur(1px);
+  margin-bottom: 7px;
+}
+
+.circleBarCardWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circleBarCardTitle {
+    display: flex;
+    flex-direction: column;
+}
+
+.circlePercent-image-icon {
+  width: 16px;
+  height: 18px;
+}
+
+.circlePercent-image-wrapper {
+  margin-bottom: 9px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}

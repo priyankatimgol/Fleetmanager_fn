@@ -1,0 +1,191 @@
+.header-create {
+  border-color: #a2e88b;
+  height: 35px;
+  margin: 0px 0px 5px 0px;
+}
+
+.header-search {
+  margin: 0px 5px 0px 10px;
+  width: 200px;
+}
+
+.header-search .MuiOutlinedInput-input {
+ padding: 8px 5px 8px 10px !important;
+}
+
+.header-search .MuiOutlinedInput-root {
+  padding-right: 0px;
+}
+
+.task-root .list-root {
+  margin: 0px 15px 0px 10px;
+}
+
+.task-root .karban-root {
+  width: 100%;
+  /* height: calc(100vh - 132px); */
+  overflow: auto;
+}
+
+.task-root .karban-root::-webkit-scrollbar:horizontal {
+  display: none;
+}
+
+.task-root .karban-root .sticky-header {
+  position: sticky;
+  z-index: 1;
+  top: 0px;
+}
+
+.karban-root .drag-root {
+  display: flex;
+}
+
+.karban-root .drag-root .drag-coloums {
+  padding: 10px;
+  border: 1px solid lightgrey;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background: rgb(248, 248, 248);
+  border-radius: 5px;
+  margin: 0px 10px 5px 10px;
+  width: 350px;
+  height: 100%;
+  min-width: auto !important;
+}
+
+.karban-root .drag-root .drag-coloums .drag-card{
+    border: 1px solid lightgrey;
+    padding: 8px;
+    background-color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.karban-root .drag-root .drag-coloums .drag-card .drag_card-title{
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.karban-root .drag-root .drag-coloums .drag-card .drag_card-description{
+  line-height: 1rem;
+}
+
+.karban-root .drag-root .drag-coloums .drag-card .drag_card-status{
+  /* margin: 5px 0px 5px 0px; */
+  font-size: 0.8rem;
+}
+
+.card-taskType {
+  font-size: 12px;
+}
+
+.card-taskType .MuiChip-label {
+  padding: 0px 6px 0px 6px !important;
+}
+
+.drag-card .MuiChip-root {
+  margin: 5px 0px 0px 0px;
+  height: 20px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.kanban_loader {
+  margin-top: 15%;
+}
+
+.header-add {
+    color: #019e89;
+} 
+
+.text-trans {
+  text-transform: capitalize;
+}
+
+.addTaskWrapperUpdate {
+  width: 80vw;
+}
+
+.addTaskWrapperCreate {
+  width: 55vw;
+}
+
+.full-height {
+  min-height: calc(100vh - 62px);
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+}
+
+.task-form-upper-section {
+  padding: 10px;
+  max-height: calc(100vh - 80px);
+  overflow-y: auto;
+}
+
+.task-form-bottom-section {
+  padding: 10px ;
+  position: absolute;
+  width: -webkit-fill-available;
+  bottom: 0;
+  border-top: 1px solid #c4c4c4;
+  background-color:white !important;
+  /* box-shadow: rgba(255, 255, 255, 0.762) 0px 2px 4px 0px, rgba(255, 255, 255, 0.785) 0px 2px 16px 0px; */
+  box-shadow: rgba(255, 255, 255, 0.2) 0px -20px 25px,
+    rgba(255, 255, 255, 0.45) 0px -15px 20px,
+    rgba(255, 255, 255, 0.65) 0px -10px 10px,
+    rgba(255, 255, 255, 0.95) 0px -5px 5px;
+}
+
+.dis-flex{
+  display: flex;
+}
+.mar-t15{
+  margin-top: 10px;
+}
+.font-s12{
+  font-size: 12px;
+}
+.button_view{
+  display: flex;
+  justify-content: end;
+}
+
+.dis-flex-start{
+  display: flex;
+  justify-content: start;
+  margin-top: 10px;
+}
+
+.filter-view-drawer {
+  width: 40vw;
+}
+
+.wid-100{
+  width: 100%;
+}
+.back-color {
+  background: #00a18b;
+  color: #fff;
+  cursor: pointer;
+}
+
+.conf_msg {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.dropdown-margin {
+  margin-right: 5px;
+  width: 235px;
+}
+
+/* .dropdown-margin .MuiAutocomplete-input {
+  padding: 6px 5px 6px 10px !important;
+ } */

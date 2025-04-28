@@ -1,0 +1,175 @@
+.wtg-card-wrapper{
+  box-shadow:  0px 0px 2px 0px rgba(103, 103, 103, 0.25);
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  margin-bottom: 8px;
+}
+.wind-image{
+ background-image: url('../../../src/assets/images/windgif.gif');
+ background-repeat: no-repeat;
+ background-size: contain;
+ background-position: center;
+}
+.wind-image-stop{
+  background-image: url('../../../src/assets/images/windgif_stop.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+ }
+
+.h-340{
+  height: 338px;
+}
+
+.h-280{
+  height: 285px;
+}
+.Icon-text{
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.mr-5{
+  margin-right: 5px;
+}
+.alarm-card,.windcard,.windspeed,.power,.production{
+  position: relative;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+.card-wrap{
+  display: flex;
+  justify-content: space-between;
+}
+.alarm-card:after{
+   position: absolute;
+   content:'';
+   top: 0;
+   height: 3px;
+   border-radius: 5px;
+   width: 100px;
+   background-color: #FD5454;
+}
+.windcard:after{
+  position: absolute;
+  content:'';
+  top: 0;
+  height: 3px;
+  border-radius: 5px;
+  width: 100px;
+  background-color: #36A98A;
+}
+.windspeed:after{
+  position: absolute;
+  content:'';
+  top: 0;
+  height: 3px;
+  border-radius: 5px;
+  width: 100px;
+  background-color: #FFBF00;
+}
+.power:after{
+  position: absolute;
+  content:'';
+  top: 0;
+  height: 3px;
+  border-radius: 5px;
+  width: 100px;
+  background-color: #FF8012;
+}
+.production:after{
+  position: absolute;
+  content:'';
+  top: 0;
+  height: 3px;
+  border-radius: 5px;
+  width: 100px;
+  background-color: #306BFF;
+}
+
+.flex-item{
+  display: flex;
+  align-items: center;
+}
+.top-ten-img{
+ margin: 10px 5px 25px;
+}
+.top-err-wrep{
+  display: flex;
+  justify-content: space-between;
+}
+.err-wrep{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  height: 35px;
+  margin-bottom: 15px;
+  padding: 0px 10px;
+}
+.red:after{
+  position: absolute;
+  content:'';
+  top: 0;
+  height: 100%;
+  border-radius: 5px;
+  width: 3px;
+  background-color: #FD5454;
+  left:0;
+}
+.yellow:after{
+  position: absolute;
+  content:'';
+  top: 0;
+  height: 100%;
+  border-radius: 5px;
+  width: 3px;
+  background-color: #DBD535;
+  left:0;
+}
+.l-green:after{
+  position: absolute;
+  content:'';
+  top: 0;
+  height: 100%;
+  border-radius: 5px;
+  width: 3px;
+  background-color: #6C7D00;
+  left:0;
+}
+.green:after{
+  position: absolute;
+  content:'';
+  top: 0;
+  height: 100%;
+  border-radius: 5px;
+  width: 3px;
+  background-color: #69BC4B;
+  left:0;
+}
+
+.apexcharts-svg {
+  height: 355px !important;
+}
+
+.top-10filters{
+font-size: 10px;
+cursor: pointer;
+z-index: 9;
+font-weight: 600;
+border: none;
+background-color: transparent;
+}
+
+.selected {
+color: #3490B8;
+border: 1px solid grey;
+background-color: #0000ff1d;
+padding: 2px;
+border-radius: 4px;
+font-weight: 600;
+}
+.fontSize-10 {
+  font-size: 10px !important;
+}

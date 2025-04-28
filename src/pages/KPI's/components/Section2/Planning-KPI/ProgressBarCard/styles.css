@@ -1,0 +1,8 @@
+.card-content-box-text {
+    height: 33px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    width: 100%;
+}

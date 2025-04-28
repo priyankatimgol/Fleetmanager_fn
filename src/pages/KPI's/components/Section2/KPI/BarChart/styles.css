@@ -1,0 +1,44 @@
+.barCardWrapper {
+  box-shadow: 0px 0px 2px 0px rgba(103, 103, 103, 0.25);
+  padding: 0px;
+  border-radius: 5px;
+}
+
+.disableCard {
+  border-radius: 5px;
+  background-color: #8080805c;
+  filter: blur(1px);
+  pointer-events: none;
+}
+
+.disableCard:hover {
+  cursor: not-allowed;
+}
+  
+.barContentWrapper {
+  position: relative;
+  padding: 5px;
+  width: 100%;
+  height: 177px;
+}
+
+.chartWrapper {
+  position: relative;
+  top: -15px;
+  left: 0px;
+}
+.kpi-label{
+  font-size: 10px;
+  color: #000;
+}
+.apexcharts-legend.apx-legend-position-bottom.apexcharts-align-center, .apexcharts-legend.apx-legend-position-top.apexcharts-align-center{
+  inset: auto 1px 7px !important;
+}
+.mb-7{
+ margin-bottom: 7px;
+}
+
+.apexcharts-svg {
+  height: 162px !important;
+}
+

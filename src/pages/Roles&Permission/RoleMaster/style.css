@@ -1,0 +1,27 @@
+.Sub-btn {
+    color: white;
+    background-color: #019e89;
+}
+
+.Sub-btn:hover {
+    background-color: #006d5f;
+}
+
+.add_role_button {
+    margin-bottom: 8px;
+    color: #019e89;
+    border-color: #019e89;
+}
+
+.add_role_button:hover {
+    border-color: #006d5f;
+}
+
+.iconBtn {
+    cursor: pointer;
+}
+
+.roleMasterGrid {
+    height: 100vh !important;
+    max-height: calc(100vh - 135px);
+}

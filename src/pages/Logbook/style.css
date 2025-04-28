@@ -1,0 +1,78 @@
+.log-book-page .form-wrapper {
+ width: 100%;
+ margin-top: 10px;
+}
+.log-book-page .MuiAccordionSummary-content {
+ margin: 10px 0;
+ padding: 0 10px;
+}
+.form-div{
+    padding: 10px;
+}
+.form-div .MuiCollapse-root{
+    background-color: rgb(253, 254, 255);
+}
+.form-div .card-item{
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.04);
+    height: 288px;
+}
+.plus-icon{
+    font-size: 60px;    
+    color: #009e89;
+    border: 1px dashed #019e89;   
+    padding: 0px 21px;
+    border-radius: 50%;
+}
+.mn-h{
+    min-height: 228px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.log-book-page .MuiPaper-root {
+   margin-bottom: 10px !important; 
+   border-radius: 5px;  
+}
+
+.log-book-page .MuiAccordion-root{
+    box-shadow: none;
+}
+
+.log-book-page .MuiAccordionSummary-expandIconWrapper {
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 2px 0px rgb(206 206 206);;
+    border-radius: 50% !important;
+    margin-right: 10px;
+}
+.log-book-page .MuiAccordionSummary-expandIconWrapper .MuiSvgIcon-root{
+color:#009e89 ;
+}
+.card-title {
+    background-color: #F4F7FE;
+    padding: 5px 10px;
+}
+.log-book-page .css-46bh2p-MuiCardContent-root {
+padding-top: 5px;
+}
+.log-book-page .MuiAccordion-gutters:before{
+ opacity: 0;
+}
+
+.accordian-background .MuiButtonBase-root {
+    border-radius: 5px;
+    border: 1px solid #efedff;
+    background: #FAF9FF;
+}
+
+.button-background .MuiButtonBase-root {
+    background-color: #019e89;
+}
+.combo-box-demo label,.form-wrapper .MuiInputBase-input {
+    font-size: 12px;
+}
+
+.logBookAccordian .css-9mgopn-MuiDivider-root {
+    border: none;
+}

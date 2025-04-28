@@ -1,0 +1,6 @@
+export const SAVE_USER_INFO = 'SAVE_USER_INFO';
+export const SAVE_CURRENT_ROLE = 'SAVE_CURRENT_ROLE';
+export const LOGIN_STATUS = 'LOGIN_STATUS';
+export const LOGIN_USER_DATA = 'LOGIN_USER_DATA';
+export const LOADING_STATUS = 'LOADING_STATUS'
+

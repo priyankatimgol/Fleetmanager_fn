@@ -1,0 +1,8 @@
+.ag-theme-alpine {
+    --ag-header-height: 30px !important;
+    overflow-x: hidden !important;
+}
+.ag-theme-alpine .ag-header-cell {
+    font-size: 0.85rem;
+  }
+  

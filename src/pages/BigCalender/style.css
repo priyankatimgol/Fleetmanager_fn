@@ -1,0 +1,81 @@
+.root-calender {
+    background-color: white;
+    border-radius: 10px;
+}
+.text-trans {
+    text-transform: capitalize;
+  }
+  
+  .addTaskWrapperUpdate {
+    width: 80vw;
+  }
+  
+  .addTaskWrapperCreate {
+    width: 55vw;
+    height: calc(100vh - 10px);
+  }
+  
+  .full-height {
+    min-height: calc(100vh - 62px);
+  }
+  
+  .button-container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+  }
+  
+  .task-form-upper-section {
+    padding: 10px;
+    max-height: calc(100vh - 80px);
+    overflow-y: auto;
+  }
+  
+  .task-form-bottom-section {
+    padding: 10px ;
+    position: absolute;
+    width: -webkit-fill-available;
+    bottom: 0;
+    border-top: 1px solid #c4c4c4;
+    background-color: #c4c4c45e;
+    /* box-shadow: rgba(255, 255, 255, 0.762) 0px 2px 4px 0px, rgba(255, 255, 255, 0.785) 0px 2px 16px 0px; */
+    box-shadow: rgba(255, 255, 255, 0.2) 0px -20px 25px,
+      rgba(255, 255, 255, 0.45) 0px -15px 20px,
+      rgba(255, 255, 255, 0.65) 0px -10px 10px,
+      rgba(255, 255, 255, 0.95) 0px -5px 5px;
+  }
+  
+  .dis-flex{
+    display: flex;
+  }
+  .mar-t15{
+    margin-top: 10px;
+  }
+  .font-s12{
+    font-size: 12px;
+  }
+  .button_view{
+    display: flex;
+    justify-content: end;
+  }
+  
+  .dis-flex-start{
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+  }
+  
+  .filter-view-drawer {
+    width: 40vw;
+  }
+  
+  .wid-100{
+    width: 100%;
+  }
+  .back-color {
+    background: #00a18b;
+    color: #fff;
+    cursor: pointer;
+  }
+  

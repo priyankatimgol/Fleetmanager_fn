@@ -1,0 +1,162 @@
+.map-wrepper {
+  margin-top: 10px;
+  border-radius: 4px;
+  /* background: #b8ccee; */
+  background: linear-gradient(
+    180deg,
+    rgba(20, 19, 98, 1) 0%,
+    rgba(62, 61, 121, 1) 95%
+  );
+  box-shadow: 0px 0px 4px 0px rgba(103, 103, 103, 0.25);
+  padding: 5px;
+  padding-top: 15px;
+  height: 840px;
+}
+
+.ib-wtg-card-wrapper {
+  box-shadow: 0px 0px 4px 0px rgba(103, 103, 103, 0.25);
+  padding: 7px;
+  border-radius: 5px;
+  background-color: white;
+  margin-bottom: 0px;
+}
+
+.inside-card-ib {
+  width: 11.7%;
+  box-shadow: 0px 0px 4px 0px rgba(103, 103, 103, 0.25);
+  padding: 7px;
+  border-radius: 5px;
+  background-color: white;
+}
+.ib-kpt-title {
+  color: #505050;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.ib-kpt-subtitle {
+  color: #505050;
+  font-size: 13px;
+  font-weight: 500;
+}
+.ib-kip-value-red {
+  color: #e72e3d;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.ib-kip-value-black {
+  color: #505050;
+  font-size: 14px;
+  font-weight: 600;
+}
+.ib-kip-value-green {
+  color: #47e684;
+  font-size: 16px;
+  font-weight: 500;
+}
+.ib-item-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.title-morinfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ib-item-flex-black {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.pl-mr {
+  padding-left: 12px;
+  margin-top: 0px;
+  margin-bottom: 7px;
+}
+.ib-icon {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: end;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mb-0 {
+  margin-bottom: 0;
+}
+.mt-12 {
+  margin-top: 12px;
+}
+.ib-kpi-outer {
+  display: flex;
+  align-items: center;
+}
+
+.pl-5 {
+  padding-left: 5px;
+}
+
+.RedAlterBox {
+  background-color: rgba(240, 71, 112, 0.15);
+  padding: 5px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.GreenAlterBox {
+  background-color: rgba(57, 241, 94, 0.15);
+  padding: 5px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+
+.TargetLossGreen {
+  font-size: 12px;
+  color: #1fee56;
+  font-weight: 400;
+}
+.TargetLoss {
+  font-size: 12px;
+  color: #ff0015;
+  font-weight: 400;
+}
+
+.DownArrow {
+  color: #ff0015;
+  font-size: 14px;
+}
+.UpArrow {
+  color: #47e684;
+  font-size: 14px;
+}
+
+.state-area-wrapper {
+  box-shadow: 0px 0px 2px 0px rgba(103, 103, 103, 0.25);
+  border-radius: 5px;
+  background-color: white;
+  margin-bottom: 0px;
+}
+
+.annual-box {
+  background-color: rgb(100, 153, 233, 0.15);
+  padding: 3px 5px;
+}
+
+.HV-titleflex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

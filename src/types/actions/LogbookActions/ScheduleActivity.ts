@@ -1,0 +1,4 @@
+export const GET_ALL_SCHEDULE = 'GET_ALL_SCHEDULE';
+export const CREATE_SCHEDULE= 'CREATE_SCHEDULE';
+export const UPDATE_SCHEDULE= 'UPDATE_SCHEDULE';
+export const LOADING = 'LOADING';

@@ -1,0 +1,48 @@
+.axis-columns-mapping {
+  width: 60%;
+}
+
+.xy-dropdowns-container {
+  margin-top: 1.4rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.dropdown-self-text {
+  font-size: 1rem;
+  margin: 5px 0;
+  font-weight: 600;
+}
+
+.submit-button {
+  margin: 1rem 0;
+  float: right;
+}
+
+.dropdown-self {
+  width: 50%;
+}
+
+.main-container {
+  display: flex;
+}
+
+.main-1 {
+  width: 60%;
+}
+
+.main-2 {
+  width: 40%;
+  max-height: 80vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.flex-in-t {
+  display: "flex";
+}
+
+.heading {
+  font-size: 1.4rem;
+  padding-bottom: .4rem;
+}

@@ -1,0 +1,37 @@
+.title-wrep{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dropdown-option{
+    width: 100%;
+}
+.label-common{
+    font-weight: 600;
+    margin: 0;
+    font-size: 12px;
+    font-family: Poppins,sans-serif;   
+    line-height: 1.43;
+}
+.mb-10{
+   margin-bottom: 8px;
+}
+.cards-wrep{
+    box-shadow: 0px 0px 2px 0px rgba(103, 103, 103, 0.25);
+    padding: 7px;
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+}
+.ag-header {
+    background-color: #fafafb; /* Set your desired background color */
+    color: white; /* Set the text color */
+    /* Add any other styles you need */
+  }
+  .cards-wrep1{
+    box-shadow: 0px 0px 2px 0px rgba(103, 103, 103, 0.25);
+    padding: 7px;
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+}

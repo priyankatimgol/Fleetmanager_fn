@@ -1,0 +1,15 @@
+
+export const GET_IB_HV_EHV_PSS = "GET_IB_HV_EHV_PSS"
+export const GET_IB_PM_QUALITY = "GET_IB_PM_QUALITY"
+export const GET_IB_LUBRICATION = "GET_IB_LUBRICATION"
+export const GET_IBLEVEL_LOADER = "GET_IBLEVEL_LOADER"
+export const GET_IB_MBDS = "GET_IB_MBDS"
+export const GET_IB_SCORE_CARD = "GET_IB_SCORE_CARD"
+export const GET_IB_MTTR_MTBF = "GET_IB_MTTR_MTBF"
+export const GET_IB_WTG = "GET_IB_WTG"
+export const GET_IB_HT_FEEDERS = "GET_IB_HT_FEEDERS"
+export const GET_IB_WTG_AND_DP = "GET_IB_WTG_AND_DP"
+export const GET_MAPSTATEDETAILS = "GET_MAPSTATEDETAILS"
+export const GET_MAPAREADETAILS = 'GET_MAPAREADETAILS'
+export const GET_IB_CAMA = 'GET_IB_CAMA'
+export const GET_MapTable = 'GET_MapTable'

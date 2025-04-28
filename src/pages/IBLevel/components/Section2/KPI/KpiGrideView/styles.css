@@ -1,0 +1,29 @@
+.w-20{
+  width: 20%;
+}
+.mb-10{
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+.pt-7{
+  padding-top: 7px !important;
+  padding-left: 10px;
+}
+.gray-bg{
+  background-color:#F9F9F9;;
+}
+.border-green-s{
+  border-left: 3px solid #36A98A;
+}
+.border-red{
+  border-left: 3px solid #E72E3D;
+}
+.border-yellow{
+  border-left: 3px solid #FFBF00;
+}
+.border-blue{
+  border-left: 3px solid #306BFF;
+}
+.border-green{
+  border-left: 3px solid #69BC4B;
+}
